@@ -37,4 +37,4 @@ jobs:
         
       # Runs a single command using the runners shell
       - name: Force To Autodeploy
-        run: surge ./ http://b-c-2020-1.surge.sh --token $ {{ secrets.Surge_Key }}
+        run: surge ./ http://b-c-2020-1.surge.sh --token $ {{ secrets.SURGE_KEY }}
